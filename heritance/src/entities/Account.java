@@ -5,7 +5,9 @@ public class Account {
 	private Integer number;
 	private String holder;
 	//private Double balance;
+	//com o atributo private a subclasse não poderia acessar os dados.
 	protected Double balance;
+	
 public Account() {
 	
 }
